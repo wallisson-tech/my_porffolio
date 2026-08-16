@@ -7,7 +7,7 @@ image: wallissonlopes/wallopdev
 # Deploy to these servers.
 servers:
   web:
-    - 146.190.70.237
+    - 206.189.224.13
   # job:
   #   hosts:
   #     - 192.168.0.1
@@ -18,8 +18,9 @@ proxy:
   host: wallopdev.com
 
 registry:
-  username: wallissonlopes
-  password: KAMAL_REGISTRY_PASSWORD
+  server: localhost:5555
+  #username: wallissonlopes
+  #password: KAMAL_REGISTRY_PASSWORD
 
 env:
   secret:
